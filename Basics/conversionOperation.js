@@ -23,11 +23,25 @@
 // 0 , null , undefined ,"" => false
 // 1, any other number , any string => true
 
-let num= 1;
+// let num= 1;
 
-let inString= String(num);
+// let inString= String(num);
 
-console.log(num, inString ,typeof(inString)); //everything normal in this
+// console.log(num, inString ,typeof(inString)); //everything normal in this
+
+// ********************* Operations *********************
+
+console.log("1"+2);                //12
+console.log(2 + "1");              //21
+console.log("2"+ 1 +1);            //211
+console.log(2 + 1 + "1");          //31
+
+
+
+
+
+
+
 
 
 
